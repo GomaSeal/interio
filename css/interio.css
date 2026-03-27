@@ -15,13 +15,13 @@ a {
         color: #333;
 }
 body {
-        background-image: url("/practice/interio/images/bg.jpg");
+        background-image: url("/images/bg.jpg");
         background-repeat: repeat-y;
         background-size: 100% auto;
 }
 /* 全域(手機) */
 #Banner {
-        background-image: url("/practice/interio/images/phone/Banner.png");
+        background-image: url("/images/phone/Banner.png");
         height: 400px;
         width: 100%;
         background-size: 100%;
@@ -157,7 +157,7 @@ i {
 /* 平板 */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
         #Banner {
-        background-image: url("/practice/interio/images/tablet/Banner.jpg");
+        background-image: url("/images/tablet/Banner.jpg");
         width: 100%;
         background-position: bottom center;
         background-repeat: no-repeat;
@@ -214,7 +214,7 @@ i {
         font-size: 18px;
         }
         #Banner {
-        background-image: url("/practice/interio/images/Banner.jpg");
+        background-image: url("/images/Banner.jpg");
         background-size: 100%;
         height: 700px;
         background-position: bottom center;
