@@ -15,67 +15,13 @@ a {
         color: #333;
 }
 body {
-        background-image: url("/images/bg.jpg");
+        background-image: url("/practice/interio/images/bg.jpg");
         background-repeat: repeat-y;
         background-size: 100% auto;
 }
-/* 全域(手機) */       
-.header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 19px 24px;
-        gap: 50px;
-}
-
-.menu {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-left: 93px;
-}
-
-.menu i {
-        color: #333;
-        width: 32px;
-        height: 32px;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-}
-
-.nav {
-        margin: 0;
-        padding: 0;
-        display: none;
-        list-style: none;
-}
-        
-.nav-link {
-        width: 100px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: black;
-}
-
-.nav-link:hover {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        background-color: rgb(184, 79, 144);
-        color: white;
-}
-
+/* 全域(手機) */
 #Banner {
-        background-image: url("/images/phone/Banner.png");
+        background-image: url("/practice/interio/images/phone/Banner.png");
         height: 400px;
         width: 100%;
         background-size: 100%;
@@ -211,7 +157,7 @@ i {
 /* 平板 */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
         #Banner {
-        background-image: url("/images/tablet/Banner.jpg");
+        background-image: url("/practice/interio/images/tablet/Banner.jpg");
         width: 100%;
         background-position: bottom center;
         background-repeat: no-repeat;
@@ -267,73 +213,8 @@ i {
         :root {
         font-size: 18px;
         }
-
-        .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0;
-        /* margin: 19px 24px; */
-        /* gap: 50px; */
-        }
-
-        .logo {
-        margin-left: 230px;
-        }
-
-        .menu {
-        display: none;
-        justify-content: center;
-        text-align: center;
-        margin-left: 93px;
-        }
-        .nav {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        list-style: none;
-        margin-right: 210px;
-        font-family: "Jost", sans-serif;
-        gap: 16px;
-        }
-        
-        .nav-link {
-        width: 65px;
-        height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        }
-        .nav-link1 {
-        width: 25px;
-        height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        text-decoration: none;
-        margin-right: 18px;
-        }
-
-.nav-link1 i {
-        width: 21px;
-        height: 21px;
-        color: black;
-}
-
-.nav-link:hover {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        background-color: rgb(184, 79, 144);
-        color: white;
-}
         #Banner {
-        background-image: url("/images/Banner.jpg");
+        background-image: url("/practice/interio/images/Banner.jpg");
         background-size: 100%;
         height: 700px;
         background-position: bottom center;
@@ -353,18 +234,14 @@ i {
         #Work {
         display: flex;
         flex-direction: row;
-        margin: 0 252px;
         }
 
         #Work .container{
-        margin: 150px 0;
-        padding: 0;
+        margin: 150px 20px;
         }
         
         .sub-content {
         display: flex;
         flex-direction: column;
         }
-
-
 }
